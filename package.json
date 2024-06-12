@@ -18,7 +18,8 @@
   },
   "scripts": {
     "client": "react-scripts start",
-    "server": "cd server && npm start",
+    "server:setup": "cd server && npm ci",
+    "server:start": "cd server && npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
